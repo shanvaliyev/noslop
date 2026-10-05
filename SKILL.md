@@ -156,9 +156,8 @@ Rewriting to remove slop can add new tells. Watch for these in your own output:
 1. Read the whole text or brief once. Identify the point, the reader, and the voice traits worth keeping. In any mode, load the matching format reference for social, long-form, or marketing and email (see References).
 2. Write or edit. When editing, change the minimum needed. Restructure only when the structure hurts the piece, and say why.
 3. Check pass. Reread as the reader. Hunt Tier 1 first, then look at paragraph shapes for Tier 2. These survive rewrites most often: not-X-but-Y (especially ", not X" tails and two-sentence setup/reveal pairs), closers, triads, dashes, bold labels, staged openers. Check headings and your own explanations as well as the body.
-4. If you can run code, run `python3 scripts/scan.py <file>` (add `--social` for social posts, or pipe text to it on stdin) as a backstop for mechanical tells. It flags candidates for you to judge, and it misses tells that aren't mechanical.
-5. Fact check. Make sure nothing was added beyond the source and nothing needed was lost.
-6. Read it aloud in your head. Would it sound natural said to a sharp colleague? Would the writer recognize it as theirs?
+4. Fact check. Make sure nothing was added beyond the source and nothing needed was lost.
+5. Read it aloud in your head. Would it sound natural said to a sharp colleague? Would the writer recognize it as theirs?
 
 ## Output
 

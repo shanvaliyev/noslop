@@ -11,15 +11,13 @@ An [Agent Skill](https://agentskills.io/specification) for writing and editing p
 ```
 noslop/
 ├── SKILL.md                     core instructions (loaded when the skill activates)
-├── references/
-│   ├── patterns.md              41 patterns, tiered, each with before/after
-│   ├── words.md                 word and phrase lists with plain replacements
-│   ├── examples.md              12 full rewrites, including over-correction and light-touch cases
-│   ├── social.md                LinkedIn, X, Threads
-│   ├── longform.md              blog posts, newsletters, essays
-│   └── marketing-email.md       landing pages, product copy, email
-└── scripts/
-    └── scan.py                  regex backstop for mechanical tells (stdlib only)
+└── references/
+    ├── patterns.md              41 patterns, tiered, each with before/after
+    ├── words.md                 word and phrase lists with plain replacements
+    ├── examples.md              12 full rewrites, including over-correction and light-touch cases
+    ├── social.md                LinkedIn, X, Threads
+    ├── longform.md              blog posts, newsletters, essays
+    └── marketing-email.md       landing pages, product copy, email
 ```
 
 ## Design choices
@@ -30,17 +28,6 @@ noslop/
 - **Over-correction is a named failure.** Terse fragments, synonym swaps, fake typos and replacement kickers are all slop too.
 - **Venue changes the rules.** On X and LinkedIn, hooks, line breaks, punchy closers and questions to readers are allowed as platform conventions. The skill keeps those mechanics and requires real substance and fresh wording inside them. Websites, email and long-form get the strict rules.
 - **Zero em dashes by default.** The rule gives way when the user's voice sample uses dashes.
-
-## Scanner
-
-```
-python3 scripts/scan.py draft.md          # Tier 1 and 2 hits plus rhythm stats
-python3 scripts/scan.py --all draft.md    # include Tier 3
-python3 scripts/scan.py --social post.txt # relax hook/question rules for social
-pbpaste | python3 scripts/scan.py         # stdin
-```
-
-Exits 1 if any Tier 1 pattern is found. It flags candidates for the agent to judge.
 
 ## Credits
 
