@@ -47,7 +47,7 @@ Exits 1 if any Tier 1 pattern is found. It flags candidates for the agent to jud
 Built on ideas and patterns from:
 
 - [stop-slop](https://github.com/hardikpandya/stop-slop) by Hardik Pandya (MIT)
-- [no-ai-slop](https://github.com/petergyang/no-ai-slop) by Peter Yang
+- [no-ai-slop](https://github.com/petergyang/no-ai-slop) by Peter Yang (MIT)
 - [humanizer](https://github.com/blader/humanizer) by blader (MIT)
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), WikiProject AI Cleanup
 - Kobak et al., [Delving into ChatGPT usage in academic writing through excess vocabulary](https://arxiv.org/abs/2406.07016)
