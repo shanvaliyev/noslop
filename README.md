@@ -29,6 +29,12 @@ noslop/
 - **Venue changes the rules.** On X and LinkedIn, hooks, line breaks, punchy closers and questions to readers are allowed as platform conventions. The skill keeps those mechanics and requires real substance and fresh wording inside them. Websites, email and long-form get the strict rules.
 - **Zero em dashes by default.** The rule gives way when the user's voice sample uses dashes.
 
+## Used by
+
+- [AgentKYZ](https://agentkyz.com) runs KYC and AML compliance as a managed service for funds, brokerages, fund administrators, asset managers and banks. AI agents work each case, compliance specialists review the files, and pricing is fixed per case.
+
+Using noslop in your product or team? Open a PR to add yourself.
+
 ## Credits
 
 Built on ideas and patterns from:
