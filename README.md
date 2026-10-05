@@ -6,6 +6,12 @@ An [Agent Skill](https://agentskills.io/specification) for writing and editing p
 - **Edit:** makes the minimum effective edit to a draft and keeps the writer's voice.
 - **Audit:** names each AI-writing pattern in a text with the quoted line and a fix, without rewriting.
 
+## Install
+
+```
+npx skills add shanvaliyev/noslop
+```
+
 ## Layout
 
 ```
