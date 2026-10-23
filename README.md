@@ -18,21 +18,19 @@ npx skills add shanvaliyev/noslop
 noslop/
 ├── SKILL.md                     core instructions (loaded when the skill activates)
 └── references/
-    ├── patterns.md              41 patterns, tiered, each with before/after
-    ├── words.md                 word and phrase lists with plain replacements
-    ├── examples.md              12 full rewrites, including over-correction and light-touch cases
-    ├── social.md                LinkedIn, X, Threads
-    ├── longform.md              blog posts, newsletters, essays
-    └── marketing-email.md       landing pages, product copy, email
+    ├── patterns.md              20 patterns, each with before/after
+    ├── words.md                 stock words and phrases with plain replacements
+    ├── formats.md               social posts, long-form, marketing copy, email
+    └── examples.md              5 full rewrites, including over-correction and light-touch cases
 ```
 
 ## Design choices
 
-- **Tiered patterns.** Tier 1 tells (not-X-but-Y, staged openers, chatbot residue, dashes) get fixed on sight. Tier 2 gets fixed when it repeats. Tier 3 only matters alongside other tells. Absolute rules like "no adverbs" or "no passive voice" over-correct into a different kind of robotic prose.
+- **Judgment over checklists.** Most patterns matter only when they cluster, because one instance is ordinary human writing. Only chatbot residue, leftovers and dashes are removed every time. Absolute rules like "no adverbs" or "no passive voice" over-correct into a different kind of robotic prose, and a long rulebook makes the model worse at writing in general.
 - **Positive guidance first.** SKILL.md leads with what human prose does. Word lists load during the check pass, because reading a banned list right before drafting tends to prime those words.
 - **No fabricated humanity.** Specifics make writing read as human, so the skill asks the user for them and never makes them up.
 - **Over-correction is a named failure.** Terse fragments, synonym swaps, fake typos and replacement kickers are all slop too.
-- **Venue changes the rules.** On X and LinkedIn, hooks, line breaks, punchy closers and questions to readers are allowed as platform conventions. The skill keeps those mechanics and requires real substance and fresh wording inside them. Websites, email and long-form get the strict rules.
+- **Venue changes the rules.** On X and LinkedIn, hooks, line breaks, punchy closers and questions to readers are allowed as platform conventions. The skill keeps those mechanics and requires real substance and fresh wording inside them. Websites, email and long-form get the default rules.
 - **Zero em dashes by default.** The rule gives way when the user's voice sample uses dashes.
 
 ## Used by
